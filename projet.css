@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+.header_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_navbar-title{
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+}
+.header_navbar-list{
+    font-weight: 400;
+    font-size: 22px;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header_navbar a{
+    color: gray;
+    text-decoration: none;
+}
+
+.header_navbar-list-link:not(:last-child)::after{
+    content: '|';
+    color: gray;
+    padding-left: 10px;
+}
+.main_title{
+    margin-top: 40px;
+    padding: 0 0 0 90px;
+
+}
+.main_content1-text-title{
+margin-top: 30px;
+}
+
+.main_content1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 90px;
+
+}
+
+.main_image1-projet1{
+    width: 400px;
+    height: 350px;
+}
+.main_content1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    height: 306px;
+    line-height: 30px;
+}
+.main_content2-text-title{
+    margin-top: 30px;
+}
+.main_content2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 0 0 0 90px;
+}
+.main_image2-projet2{
+    width: 400px;
+    height: 350px;
+    
+}
+.main_content2-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    height: 306px;
+    line-height: 30px;
+}
+.main_content3-text-title{
+    margin-top: 30px;
+}
+.main_content3{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 90px;
+}
+.main_image3-projet3{
+    width: 400px;
+    height: 370px;
+    
+}
+.main_content3-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    height: 306px;
+    line-height: 30px;
+}
+body img{
+    margin-bottom: 50px;
+}
+
+.footer{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    
+}
+
+.footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+span{
+    color: gray;
+    font-size: 10px;
+}
+.fab{
+    color: black;
+    font-size: 15px;
+}
+.footer_network-link{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    margin-top: -4px;
+}
+.main_image_title1{
+    display: none;
+}
+.main_image_title2{
+    display: none;
+}
+.main_image_title3{
+    display: none;
+}
+    

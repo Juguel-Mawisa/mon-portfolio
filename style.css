@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter;
+    padding: 2% 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+.header_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_navbar-title{
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+}
+.header_navbar-list{
+    font-weight: 400;
+    font-size: 22px;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header_navbar a{
+    color: gray;
+    text-decoration: none;
+}
+
+.header_navbar-list-link:not(:last-child)::after{
+    content: '|';
+    color: gray;
+    padding-left: 10px;
+}
+
+.main{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.main_image-profile{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.main_detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+
+.main_detail-title{
+    margin-bottom: -15px;
+}
+.divbtn button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+}
+.divbtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+.divbtn_cv{
+    background-color: #EEA302;
+}
+
+.divbtn_projets{
+    background-color: #E13B25;
+}
+.divbtn_contact{
+    background-color: #80D8DA;
+}
+
+.main_detail-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    
+}
+
+.footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+span{
+    color: gray;
+    font-size: 10px;
+}
+.fab{
+    color: black;
+    font-size: 15px;
+}
+.footer_network-link{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    margin-top: -4px;
+}
+
+
+
+
